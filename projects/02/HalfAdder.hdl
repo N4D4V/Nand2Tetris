@@ -17,5 +17,5 @@ CHIP HalfAdder {
         Not(in=c, out=carry);
         Nand(a=a, b=c, out=aNANDc);
         Nand(a=b, b=c, out=bNANDc);
-        Nand(a=aNANDc, b=bNANDc, out=out);
+        Nand(a=aNANDc, b=bNANDc, out=sum);
 }
